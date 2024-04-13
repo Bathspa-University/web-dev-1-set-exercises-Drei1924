@@ -1,0 +1,62 @@
+h1{
+    color: beige;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+h2{
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color:black
+}
+
+form{
+    display:block;
+    text-align: center;
+    padding: 20;
+    font-family: monospace;
+}
+
+p{
+    text-align: center;
+}
+
+input{
+    padding-left: 39px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: darkcyan;
+    border: none;
+    font-family: monospace;
+}
+
+.button{
+    font-size: 30px;
+    margin-top: 70px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    color: black;
+    font-size: 30px;
+    background-color: ghostwhite;
+    width: 28%;
+    text-align: center;
+    margin-left: 900px;
+    border-radius: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
