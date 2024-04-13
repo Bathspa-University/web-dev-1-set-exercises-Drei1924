@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+figure {
+    margin: 40px;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.image1, .image2, .image3 {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image1:hover, .image2:hover, .image3:hover {
+    transform: scale(1.05);
+}
